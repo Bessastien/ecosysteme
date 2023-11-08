@@ -4,7 +4,7 @@ if str(input('Voulez-vous parametrer votre écosytème ? (Oui ou Non)\n')) == 'O
 
     taille_grille = int(input('Votre prairie fera combien de côté ?  '))
     herbe_depart = int(input("L'herbe de votre prairie sera à combien de hauteur au premier tour ? (Chiffre entre 0 et 9)  "))
-    herbe_minimale = int(input("Votre mouton ma,gera l'herbe à partir de quelle hauteur ? (Chiffre entre 0 et 9)  "))
+    herbe_minimale = int(input("Votre mouton mangera l'herbe à partir de quelle hauteur ? (Chiffre entre 0 et 9)  "))
 
     energie_mouton = int(input('Vos moutons débuterons avec combien de santé ? (0 = mort et 50 = pleine forme)  '))
     faim_mouton = int(input('Vos moutons ont faim et perdent de la vie à chaque tour, combien ?  '))
